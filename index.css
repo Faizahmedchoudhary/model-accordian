@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black !important;
+}
+
+.main-modal{
+    background-color: aliceblue;
+    width: 100%;
+    height: 100vh;
+}
+.accordian div {
+  /* background-color: white; */
+  margin: 1rem;
+  padding: 1rem;
+}
+.accordian div i {
+    position: absolute;
+    right: 50px;
+}
+
+.accordians{
+    /* height: 30px; */
+ }
+
+
+
+
+.accordians h2{
+    background-color: beige;
+    padding: 1rem;
+}
+
+.acc{
+    height:0px;
+	transform: scaleY(0);
+    float:left;
+    display:block;
+}
+
+.accordians.active .acc {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 100%;
+    margin: 0px 0px 10px 0px;
+    display:block;
+	  transform: scaleY(1);
+        box-sizing: border-box;
+        height: 100%;
+        background-color: white;
+}
+
